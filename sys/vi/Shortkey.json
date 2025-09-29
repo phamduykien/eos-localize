@@ -1,0 +1,21 @@
+{
+  "StatusDisplay": {
+    "Save": "Ctrl+S: Lưu",
+    "Add": "Ctrl+1: Thêm",
+    "Edit": "Ctrl+2: Sửa",
+    "Delete": "Ctrl+3: Xóa",
+    "Duplicate": "Ctrl+D: Nhân bản",
+    "Refresh": "Ctrl+R: Tải lại",
+    "Export": "Ctrl+E: Xuất Excel",
+    "Import": "Ctrl+I: Nhập Excel",
+    "Print": "Ctrl+P: In",
+    "Search": "Ctrl+F: Tìm kiếm",
+    "Cancel": "Esc: Hủy bỏ",
+    "Close": "Esc: Đóng",
+    "Help": "F1: Trợ giúp",
+    "ctrl_f2": "Ctrl+F2: Xem số dư",
+    "ctrl_2": "Ctrl+2: Copy",
+    "ctrl_3": "Ctrl+3: Xem số dư tài khoản",
+    "ctrl_4": "Ctrl+4: Tính lại"
+  }
+}

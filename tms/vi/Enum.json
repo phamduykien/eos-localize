@@ -1,0 +1,599 @@
+{
+  "FormState": {
+    "Add": "Thêm",
+    "View": "Xem",
+    "Edit": "Sửa",
+    "Duplicate": "Thêm",
+    "QuickAdd": "Thêm nhanh"
+  },
+  "Gender": {
+    "Female": "Nữ",
+    "Male": "Nam",
+    "Other": "Khác"
+  },
+  "InDebt": {
+    "Debt": "Dư nợ",
+    "ExcessYes": "Dư có"
+  },
+  "FilterOperator": {
+    "Contains": "Chứa",
+    "Notcontains": "Không chứa",
+    "StartsWith": "Bắt đầu với",
+    "EndsWith": "Kết thúc với",
+    "Null": "(Trống)",
+    "NotNull": "(Không trống)",
+    "Equals": "Bằng",
+    "NotEquals": "Khác",
+    "GreaterThan": "Lớn hơn",
+    "GreaterThanEquals": "Lớn hơn hoặc bằng",
+    "LessThan": "Nhỏ hơn",
+    "LessThanEquals": "Nhỏ hơn hoặc bằng",
+    "Between": "Trong khoảng"
+  },
+  "OrganizationUnitType": {
+    "Corporations": "Tổng công ty",
+    "Group": "Tập đoàn",
+    "Subsidiaries": "Công ty con",
+    "Branch": "Chi nhánh",
+    "Representative": "Văn phòng đại điện",
+    "Office": "Văn phòng",
+    "Center": "Trung tâm",
+    "Department": "Phòng ban",
+    "Team": "NHóm/tổ/đội",
+    "Factory": "Phân xưởng"
+  },
+  "EmployeeType": {
+    "Probation": "Thử việc",
+    "Office": "Chính thức",
+    "Manage": "Quản lý"
+  },
+  "Period": {
+    "ThisDay": "Hôm nay",
+    "ThisWeek": "Tuần này",
+    "FirstWeekToPresent": "Đầu tuần tới hiện tại",
+    "ThisMonth": "Tháng này",
+    "FirstMonthToPresent": "Đầu tháng tới hiện tại",
+    "ThisQuarter": "Quý này",
+    "FirstQuarterToPresent": "Đầu quý tới hiện tại",
+    "ThisYear": "Năm nay",
+    "FirstYearToPresent": "Đầu năm tới hiện tại",
+    "SixFirstMonth": "Sáu tháng đầu năm",
+    "SixLastMonth": "Sáu tháng cuối năm",
+    "January": "Tháng 1",
+    "February": "Tháng 2",
+    "March": "Tháng 3",
+    "April": "Tháng 4",
+    "May": "Tháng 5",
+    "June": "Tháng 6",
+    "July": "Tháng 7",
+    "August": "Tháng 8",
+    "September": "Tháng 9",
+    "October": "Tháng 10",
+    "November": "Tháng 11",
+    "December": "Tháng 12",
+    "FiscalI": "Quý 1",
+    "FiscalII": "Quý 2",
+    "FiscalIII": "Quý 3",
+    "FiscalIV": "Quý 4",
+    "Yesterday": "Hôm qua",
+    "LastWeek": "Tuần trước",
+    "LastMonth": "Tháng trước",
+    "LastQuarter": "Quý trước",
+    "LastYear": "Năm trước",
+    "Tomorrow": "Ngày mai",
+    "NextWeek": "Tuần sau",
+    "NextMonth": "Tháng sau",
+    "NextQuarter": "Quý sau",
+    "NextYear": "Năm sau",
+    "Custom": "Tùy chọn"
+  },
+  "AccountCategoryKind": {
+    "Debit": "Dư Nợ",
+    "Credit": "Dư Có",
+    "BothSide": "Lưỡng tính"
+  },
+  "Currency": {
+    "VND": "VND",
+    "Dola": "USD"
+  },
+  "Pagination": {
+    "Ten": "10 bản ghi trên 1 trang",
+    "Twen": "20 bản ghi trên 1 trang",
+    "Thir": "30 bản ghi trên 1 trang",
+    "Fif": "50 bản ghi trên 1 trang",
+    "Hunder": "100 bản ghi trên 1 trang"
+  },
+  "SalaryForm": {
+    "Coefficient": "Hệ số",
+    "Amount": "Số tiền"
+  },
+  "MethodDistributeType": {
+    "Budget": "Dự toán",
+    "TreasuryWarrant": "Lệnh chi",
+    "InKind": "Hiện vật",
+    "RecordReceiptExpense": "Ghi thu - Ghi chi",
+    "Other": "Khác"
+  },
+  "CashWithDrawType": {
+    "None": "Không chọn",
+    "EstimateAdvance": "Tạm ứng đã cấp dự toán",
+    "EstimateNotYetAdvance": "Tạm ứng chưa cấp dự toán",
+    "AdvancePayment": "Thanh toán tạm ứng",
+    "Expense": "Thực chi",
+    "PlanReceipt": "Nhận dự toán",
+    "TreasuryWarrantReceipt": "Nhận lệnh chi tạm ứng",
+    "ReceiptExpense": "Ghi thu - Ghi chi",
+    "TreasuryWarrantReceiptExpense": "Nhận lệnh chi thực chi",
+    "ExpenseReduce": "Giảm chi - Thực chi",
+    "ExpenseReduceAdvance": "Giảm chi - Tạm ứng",
+    "RefundExpense": "Nộp trả - Thực chi",
+    "RefundAdvance": "Nộp trả - Tạm ứng",
+    "Supplement": "Bổ sung",
+    "RestoreExpense": "Nộp phục hồi - Thực chi",
+    "RestoreAdvance": "Nộp phục hồi - Tạm ứng",
+    "BudgetRejecttion": "Xuất toán",
+    "ReceiptBudgetReturn": "Giảm thu",
+    "IncrementAdjustment": "Điều chỉnh tăng thuế GTGT",
+    "DecrementAdjustment": "Điều chỉnh giảm thuế GTGT",
+    "DestroyPlanning": "Hủy dự toán",
+    "BUPlanAdjustment": "Điều chỉnh",
+    "DestroyReceipt": "Hủy lệnh chi tiền",
+    "ReceiptForInferior": "Lệnh chi cho cấp dưới",
+    "ReceivedReceiptFromSuperiors": "Lệnh chi nhận từ cấp trên"
+  },
+  "RefType": {
+    "BUTransfer": "Chuyển khoản kho bạc",
+    "BUTransferDeposit": "Chuyển khoản kho bạc vào TK tiền gửi",
+    "BUPlanWithdrawDeposit": "Rút dự toán tiền gửi",
+    "BUPlanWithdrawCash": "Rút dự toán tiền mặt",
+    "BUPlanWithdrawTransfer": "Rút dự toán chuyển khoản",
+    "BUPlanWithdrawSalaryTransfer": "Rút dự toán chuyển khoản lương, bảo hiểm",
+    "BUPlanReceipt": "Nhận dự toán đầu năm",
+    "BUPlanReceiptSuplementary": "Nhận dự toán bổ sung",
+    "CAReceiptSale": "Phiếu thu bán hàng",
+    "CAReceipt": "Phiếu thu",
+    "CAReceiptWithdraw": "Phiếu thu rút tiền gửi NH, KB",
+    "CAReceiptPlanWithdraw": "Phiếu thu rút dự toán nhập quỹ",
+    "CAReceiptFixedAsset": "Phiếu thu bán tài sản cố định",
+    "BUPlanSupplement": "Nhận dự toán bổ sung",
+    "BUPlanCancel": "Hủy dự toán",
+    "BUVoucherListPlanned": "Bảng kê chứng từ thanh toán đã cấp dự toán",
+    "BUVoucherListNotPlanned": "Bảng kê chứng từ thanh toán chưa cấp dự toán",
+    "BUVoucherListReceipExpense": "Bảng kê chứng từ thanh toán ghi thu - ghi chi",
+    "BUVoucherListOther": "Bảng kê chứng từ khác",
+    "BUVoucherListRealExpense": "Bảng kê chứng từ thanh toán thực chi",
+    "BUPlanAdjustment": "Điều chỉnh dự toán",
+    "SUTransfer": "Điều chỉnh CCDC",
+    "SUIncrement": "Ghi tăng CCDC",
+    "SUDecrement": "Ghi giảm CCDC",
+    "PUInvoice": "Hóa đơn mua hàng",
+    "INTransfer": "Chuyển kho",
+    "INAdjustment": "Điều chỉnh tồn kho",
+    "INOutward": "Xuất kho",
+    "INInward": "Nhập kho",
+    "BADeposit": "Thu tiền gửi",
+    "BUExpenseWithdrawAdjustment": "Điều chỉnh kinh phí",
+    "CAPaymentVendor": "Phiếu chi trả nhà cung cấp",
+    "CAPaymentPurchase": "Phiếu chi mua vật tư hàng hóa",
+    "SAInvoice": "Bán hàng chưa thu tiền",
+    "BABankTransfer": "Chuyển tiền nội bộ",
+    "BAWithdrawPurchase": "Chi tiền gửi mua Vật tư, hàng hóa",
+    "CAPayment": "Phiếu chi",
+    "CAPaymentDeposit": "Phiếu chi nộp vào NH, KB",
+    "CAPaymentSalary": "Phiếu chi là Phiếu chi trả lương",
+    "CAPaymentFixedAsset": "Phiếu chi mua tài sản cố định",
+    "BAWithDraw": "Chi tiền gửi",
+    "GLGeneralVoucher": "Chứng từ nghiệp vụ khác",
+    "BUBudgetReserve": "Dự toán giữ lại",
+    "GLBeginningYearTransfer": "Quyết toán số dư đầu năm",
+    "CAReceiptCustomer": "Phiếu thu tiền khách hàng",
+    "GLProfitLossTransfer": "Xác định kết quả hoạt động",
+    "GLEndYearTransfer": "Kết chuyển số dư cuối năm",
+    "GLProvisionalTaxInComeEnterprise": "Tạm tính thuế thu nhập doanh nghiệp",
+    "GLFinalTaxInComeEnterprise": "Quyết toán thuế thu nhập doanh nghiệp",
+    "SAReturn": "Hàng bán trả lại",
+    "BUCommitmentRequest": "Đề nghị cam kết chi",
+    "BUCommitmentAdjustment": "Điều chỉnh cam kết chi",
+    "GLVoucherSummaryTable": "Bảng tổng hợp chứng từ cùng loại",
+    "GLPostedVoucher": "Chứng từ ghi sổ",
+    "BATransferDeposit": "Tiền đang chuyển đến",
+    "BATransferWithdraw": "Tiền đang chuyển đi",
+    "FAVoucherDepreciation": "Lấy hao mòn tự nhiên TSCĐ từ QLTS.VN",
+    "FAVoucherIncreament": "Ghi tăng TSCĐ từ QLTS.VN",
+    "FAVoucherAdjustment": "Đánh giá lại TSCĐ từ QLTS.VN",
+    "FAVoucherDepreciate": "Lấy khấu hao TSCĐ từ QLTS.VN",
+    "FAVoucherDecrement": "Ghi giảm TSCĐ từ QLTS.VN",
+    "BUTransferPurchase": "Chuyển khoản kho bạc mua vật tư hàng hóa",
+    "INInwardFromINAdjustment": "Nhập kho từ điều chỉnh tồn kho",
+    "INInwardFromINAdjustmentChangeAmount": "Nhập kho từ điều chỉnh tồn kho (Có điều chỉnh giá trị)",
+    "INOutwardFromINAdjustment": "Xuất kho từ điều chỉnh tồn kho",
+    "INOutwardFromINAdjustmentChangeAmount": "Xuất kho từ điều chỉnh tồn kho (Có điều chỉnh giá trị)",
+    "BADepositSale": "Thu tiền gửi từ bán hàng",
+    "BADepositCustomer": "Thu tiền gửi từ khách hàng",
+    "BUOpeningCommitment": "Số dư ban đầu cam kết chi",
+    "BAWithdrawVendor": "Chi tiền gửi trả nhà cung cấp",
+    "BUTransferVendorPayment": "Chuyển khoản kho bạc trả nhà cung cấp",
+    "BUTransferSalary": "Chuyển khoản kho bạc trả lương",
+    "BUTransferInsurrance": "Chuyển khoản kho bạc thanh toán bảo hiểm",
+    "BUTransferFixedAsset": "Chuyển khoản kho bạc mua tài sản cố định",
+    "BUTreasuryFundTransferSalary": "Chuyển khoản trả lương",
+    "BUTreasuryFundTransferInsurancePayment": "Chuyển khoản thanh toán bảo hiểm",
+    "BAWithDrawSalary": "Chi tiền gửi trả lương",
+    "BAWithDrawFixedAsset": "Chi tiền gửi mua tài sản cố định"
+  },
+  "ActivityType": {
+    "AbsoluteIndependent": "Đơn vị hành chính được giao tự chủ kinh phí",
+    "NoFinancialAutonomy": "Đơn vị hành chính không được giao tự chủ kinh phí",
+    "RelativeIndependent": "Đơn vị SNCL tự chủ một phần chi thường xuyên",
+    "Depedent": "Đơn vị SNCL do NSNN cấp kinh phí",
+    "NormalExpenditureAndInvest": "Đơn vị SNCL tự chủ chi thường xuyên và đầu tư",
+    "NormalExpenditure": "Đơn vị SNCL tự chủ chi thường xuyên"
+  },
+  "Particular": {
+    "General": "Không chọn",
+    "Science": "Bộ khoa học",
+    "Statistic": "Tổng cục thống kê",
+    "DangAudit": "Kế toán Đảng",
+    "StateAudit": "Kế toán nhà nước",
+    "SGDHaiDuong": "Sở giáo dục tỉnh Hải Dương",
+    "STCLongAn": "Sở tài chính Long An"
+  },
+  "TaxRate": {
+    "ZeroPercent": "0%",
+    "FivePercent": "5%",
+    "EightPercent": "8%",
+    "TenPercent": "10%"
+  },
+  "TaxRateInventory": {
+    "NoSelected": "KCT",
+    "ZeroPercent": "0%",
+    "FivePercent": "5%",
+    "EightPercent": "8%",
+    "TenPercent": "10%"
+  },
+  "InvType": {
+    "NoInvoice": "Không có hóa đơn",
+    "NormalInvoice": "Hóa đơn thông thường",
+    "InvoiceGTGT": "Hóa đơn GTGT"
+  },
+  "GovSource": {
+    "General": "Không chọn",
+    "DomesticExpenditure": "Nguồn chi từ vốn trong nước",
+    "ForeignExpenditure": "Nguồn chi từ vốn ngoài nước"
+  },
+  "BudgetItemType": {
+    "Group": "Nhóm",
+    "SubGroup": "Tiểu nhóm",
+    "Item": "Mục",
+    "SubItem": "Tiểu mục",
+    "SubSection": "Tiết tiểu mục"
+  },
+  "AccountTransferBusinessType": {
+    "BalanceTransferYear": "Kết chuyển số dư cuối năm",
+    "PerformanceResultDefined": "Xác định kết quả hoạt động"
+  },
+  "ProjectType": {
+    "IntermAccountingUnitSt": "Đơn vị kế toán trung gian 1",
+    "IntermAccountingUnitNd": "Đơn vị kế toán trung gian 2",
+    "EstimatedUnitsSt": "Đơn vị dự toán cấp 1",
+    "OutEstimatedUnitsStInProv": "Ngoài đơn vị dự toán cấp 1 - trong cùng 1 tỉnh",
+    "OutEstimatedUnitsStDiffProv": "Ngoài đơn vị dự toán cấp 1 (khác tỉnh, khác Bộ, ngành) - trong lĩnh vực kế toán nhà nước",
+    "OutGovernmArea": "Ngoài khu vực nhà nước"
+  },
+  "AccountTransferTransferSide": {
+    "InDebt": "Nợ",
+    "Yes": "Có",
+    "BothSides": "Hai bên"
+  },
+  "ExecuteAction": {
+    "NoAction": "Không xử lý",
+    "Inward": "Nhập kho",
+    "Outward": "Xuất kho"
+  },
+  "OutwardPurpose": {
+    "OutwardUsed": "Xuất dùng",
+    "OutwardSale": "Xuất bán",
+    "OutwardOther": "Xuất khác"
+  },
+  "BudgetSourceKindType": {
+    "ActivityFund": "Kinh phí hoạt động",
+    "RegularFund": "Kinh phí thường xuyên",
+    "IrregularFund": "Kinh phí không thường xuyên",
+    "ProjectFund": "Kinh phí dự án",
+    "OrderPublicFund": "Kinh phí theo đơn đặt hàng nhà nước",
+    "BasicConstructFund": "Kinh phí xây dựng cơ bản",
+    "InvestmentFund": "Kinh phí tổng điều tra",
+    "PriorityFund": "Kinh phí ưu đãi người có công",
+    "NotReturnFund": "Kinh phí viện trợ không hoàn lại",
+    "DebtForeignFund": "Kinh phí vay nợ nước ngoài"
+  },
+  "BudgetFeesType": {
+    "Fee": "Phí",
+    "Fees": "Lệ phí"
+  },
+  "InvoiceFormNumberType": {
+    "VatInvoice": "Hóa đơn giá trị gia tăng",
+    "Bill": "Hóa đơn bán hàng",
+    "DeliveryBillFreight": "Phiếu xuất kho kiêm vận chuyển hàng hóa nội bộ",
+    "DeliveryBillAgentSales": "Phiếu xuất kho gửi bán hàng đại lý",
+    "ExportBill": "Hóa đơn xuất khẩu",
+    "BillOfSale": "Hóa đơn bán hàng (dành cho tổ chức, cá nhân trong khu phi thuế quan)",
+    "ElecInvoicePublicProperty": "Hóa đơn điện tử bán tài sản công",
+    "ElecInvoiceNationalReserves": "Hóa đơn điện tử bán hàng dự trữ quốc gia",
+    "DiffBills": "Hóa đơn khác (tem, vé, thẻ...)",
+    "Documents": "Chứng từ như hóa đơn (PXK kiêm vận chuyển nội bộ, PXK hàng gửi bán đại lý)"
+  },
+  "ReportPeriod": {
+    "January": "Tháng 1",
+    "February": "Tháng 2",
+    "March": "Tháng 3",
+    "April": "Tháng 4",
+    "May": "Tháng 5",
+    "June": "Tháng 6",
+    "July": "Tháng 7",
+    "August": "Tháng 8",
+    "September": "Tháng 9",
+    "October": "Tháng 10",
+    "November": "Tháng 11",
+    "December": "Tháng 12",
+    "QuarterI": "Quý I",
+    "QuarterII": "Quý II",
+    "QuarterIII": "Quý III",
+    "QuarterIV": "Quý IV",
+    "FirtsHalfYear": "6 tháng đầu năm",
+    "SecondHalfYear": "6 tháng cuối năm",
+    "Year": "Cả năm",
+    "ThisMonth": "Tháng này",
+    "ThisQuarter": "Quý này",
+    "Custom": "Tùy chọn"
+  },
+  "InvoiceForm": {
+    "SeftPrintInvoice": "Hóa đơn tự in",
+    "OrderPrintInvoice": "Hóa đơn đặt in",
+    "ElectronicInvoice": "Hóa đơn điện tử"
+  },
+  "ContractType": {
+    "Purchase": "Hợp đồng mua",
+    "Sale": "Hợp đồng bán",
+    "General": "Không chọn"
+  },
+  "StateImplement": {
+    "Stage": "Theo giai đoạn",
+    "Annualy": "Hàng năm"
+  },
+  "ObjectType": {
+    "Construction": "Công trình",
+    "WorkItem": "Hạng mục công trình"
+  },
+  "TypeEstimate": {
+    "FirstOfYear": "Đầu năm",
+    "Addition": "Bổ sung"
+  },
+  "ReportCre": {
+    "MonthDecember": "Tháng 12",
+    "QuarterI": "Quý I",
+    "QuarterII": "Quý II",
+    "QuarterIII": "Quý III",
+    "QuarterIV": "Quý IV",
+    "FirtsHalfYear": "6 tháng đầu năm",
+    "SecondHalfYear": "6 tháng cuối năm",
+    "Year": "Cả năm"
+  },
+  "AutoBusinessType": {
+    "Auto": "Mặc định",
+    "SelfSetting": "Tự thiết lập"
+  },
+  "InvestmentPeriod": {
+    "PrepareInvest": "Giai đoạn chuẩn bị đầu tư",
+    "PerformInvest": "Giai đoạn thực hiện đầu tư",
+    "EndInvest": "Giai đoạn kết thúc xây dựng, đưa dự án vào khai thác sử dụng",
+    "Costs": "Chi phí Ban quản lý dự án"
+  },
+  "AccountingForm": {
+    "SharedDiary": "Nhật ký chung",
+    "LedgerDiary": "Nhật ký - sổ cái",
+    "LicenseRecord": "Chứng từ ghi sổ"
+  },
+  "MoneySign": {
+    "NormalVND": "đ",
+    "UpperCaseVND": "Đ",
+    "Dola": "$",
+    "Eur": "EUR",
+    "None": "Không chọn"
+  },
+  "Separator": {
+    "Dot": ". (dấu chấm)",
+    "Comma": ", (dấu phẩy)"
+  },
+  "PositiveFormat": {
+    "$n": "$n",
+    "$ n": "$ n",
+    "n$": "n$",
+    "n $": "n $"
+  },
+  "NegativeFormat": {
+    "($n)": "($n)",
+    "-$n": "-$n",
+    "$-n": "$-n",
+    "$n-": "$n-",
+    "(n$)": "(n$)",
+    "-n $": "-n $",
+    "n-$": "n-$",
+    "n $-": "n $-",
+    "-$ n": "-$ n",
+    "$ n-": "$ n-",
+    "n- $": "n- $",
+    "($ n)": "($ n)",
+    "(n $)": "(n $)"
+  },
+  "DefaultConfigBusiness": {
+    "None": "Không chọn",
+    "AdvanceDistributed": "Tạm ứng đã cấp dự toán",
+    "AdvanceUndistributed": "Tạm ứng chưa cấp dự toán",
+    "AdvancePayment": "Thanh toán tạm ứng",
+    "Expense": "Thực chi",
+    "PlanReceipt": "Nhận dự toán",
+    "TreasuryWarrantReceipt": "Nhận lệnh chi tạm ứng",
+    "ReceiptExpense": "Ghi thu, ghi chi",
+    "TreasuryWarrantReceiptExpense": "Nhận lệnh chi thực chi",
+    "ExpenseReduce": "Giảm chi - Thực chi",
+    "ExpenseReduceAdvance": "Giảm chi - Tạm ứng",
+    "RefundExpense": "Nộp trả - Thực chi",
+    "RefundAdvance": "Nộp trả - Tạm ứng",
+    "Supplement": "Bổ sung",
+    "RestoreExpense": "Nộp phục hồi - Thực chi",
+    "RestoreAdvance": "Nộp phục hồi - Tạm ứng",
+    "BudgetRejecttion": "Xuất toán",
+    "ReceiptBudgetReturn": "Giảm thu",
+    "IncrementAdjustment": "Điều chỉnh tăng thuế GTGT",
+    "DecrementAdjustment": "Điều chỉnh giảm thuế GTGT",
+    "DestroyPlanning": "Hủy dự toán",
+    "BUPlanAdjustment": "Điều chỉnh dự toán",
+    "DestroyReceipt": "Hủy lệnh chi tiền",
+    "ReceiptForInferior": "Lệnh chi cấp cho cấp dưới",
+    "ReceivedReceiptFromSuperiors": "Lệnh chi nhận từ cấp trên"
+  },
+  "AllocationFormat": {
+    "Budget": "Dự toán",
+    "TreasuryWarrant": "Lệnh chi",
+    "InKind": "Hiện vật",
+    "RecordReceiptExpense": "Ghi thu - Ghi chi",
+    "Other": "Khác"
+  },
+  "NegativeSign": {
+    "(n)": "(n)",
+    "-n": "-n",
+    "- n": "- n",
+    "n-": "n-",
+    "n -": "n -"
+  },
+  "FontFamily": {
+    "TimesNewRoman": "Times New Roman",
+    "OpenSan": "Open San",
+    "Arial": "Arial",
+    "Tahoma": "Tahoma",
+    "Cambria": "Cambria",
+    "ArialNarrow": "Arial Narrow"
+  },
+  "FontStyle": {
+    "Regular": "Regular",
+    "Bold": "Bold",
+    "Italic": "Italic",
+    "BoldItalic": "Bold Italic"
+  },
+  "SignType": {
+    "Record": "Ghi âm",
+    "Positive": "Ghi dương"
+  },
+  "BudgetSourceGroupPropertyType": {
+    "NotSelected": "Không chọn",
+    "Regular": "Thường xuyên",
+    "IRegular": "Không thường xuyên"
+  },
+  "Province": {
+    "HaNoi": "Hà Nội",
+    "HoChiMinh": "Hồ Chí Minh",
+    "DaNang": "Đà Nẵng",
+    "CanTho": "Cần Thơ"
+  },
+  "ExportFor": {
+    "SendTreasury": "Xuất khẩu gửi kho bạc nhà nước",
+    "SendTaxAuthorities": "Xuất khẩu gửi cơ quan thuế"
+  },
+  "ReportID": {
+    "BCTC01": "BCTC-01",
+    "BCTC02": "BCTC-02",
+    "BCTC03b": "BCTC-03b",
+    "BCTC03a": "BCTC-03a",
+    "BCTC04": "BCTC-04",
+    "BCTC05": "BCTC-05",
+    "BCTCExport04": "BCTCExport-04",
+    "BCTC01bstt": "BCTC-01bstt",
+    "BCQT02": "BCQT-02",
+    "BCQT03": "BCQT-03"
+  },
+  "ColumnDataType": {
+    "Coefficient": "Hệ số",
+    "Rate": "Tỷ lệ",
+    "Other": "Khác"
+  },
+  "PayrollItemType": {
+    "IncomRecurrent": "Thu nhập thường xuyên",
+    "IncomCasual": "Thu nhập không thường xuyên",
+    "OutcomRecurrent": "Khấu trừ thường xuyên",
+    "OutcomCasual": "Khấu trừ không thường xuyên"
+  },
+  "PayForm": {
+    "Cash": "TM",
+    "Transfer": "CK",
+    "Undefined": "TM/CK"
+  },
+  "ValidateCode": {
+    "Required": "Nhập thiếu thông tin",
+    "EditVersion": "Dữ liệu đã bị thay đổi bởi người dùng khác",
+    "Duplicate": "Dữ liệu đã tồn tại trong hệ thống",
+    "Arise": "Danh mục đã có phát sinh",
+    "System": "Dữ liệu thuộc hệ thống"
+  },
+  "MessageBoxType": {
+    "confirm_Info_Warning": 0,
+    "confirm_Yes_No": 1,
+    "confirm_Yes_No_Cancel": 2,
+    "confirm_Delete": 3,
+    "confirm_Close": 4
+  },
+  "RefTypeDictionary": {
+    "CustomerVendor": 1,
+    "Employee": 2
+  },
+  "Inactive": {
+    "All": "Tất cả",
+    "Follow": "Theo dõi",
+    "Unfollow": "Ngừng theo dõi"
+  },
+  "PostedType": {
+    "All": "Tất cả",
+    "NotPosted": "Chưa ghi sổ",
+    "Posted": "Ghi sổ"
+  },
+  "IsPersonalIncomeTax": {
+    "All": "Tất cả",
+    "IsPersonalIncomeTax": "Tính thuế",
+    "NotIsPersonalIncomeTax": "Không tính thuế"
+  },
+  "IsSocialInsurance": {
+    "All": "Tất cả",
+    "IsSocialInsurance": "Tính BHXH",
+    "NotIsSocialInsurance": "Không tính BHXH"
+  },
+  "IsHealthInsurance": {
+    "All": "Tất cả",
+    "IsHealthInsurance": "Tính BHYT",
+    "NotIsHealthInsurance": "Không tính BHYT"
+  },
+  "IsUnemploymentInsurance": {
+    "All": "Tất cả",
+    "IsUnemploymentInsurance": "Tính BHTN",
+    "NotIsUnemploymentInsurance": "Không tính BHTN"
+  },
+  "IsLaborUnion": {
+    "All": "Tất cả",
+    "IsLaborUnion": "Tính KPCĐ",
+    "NotIsLaborUnion": "Không tính KPCĐ"
+  },
+  "RefTypeGroup": {
+    "BUPlanReceipt": "Nhận dự toán",
+    "BUTransfer": "Chuyển khoản kho bạc"
+  },
+  "ImportValidateStatus": {
+    "Valid": "Hợp lệ",
+    "DataExist": "Dữ liệu đã tồn tại",
+    "NotValid": "Không hợp lệ"
+  },
+  "DashboardUnitMoney": {
+    "Basic": "Đồng",
+    "OneThousand": "Nghìn đồng",
+    "Million": "Triệu đồng",
+    "OneBillion": "Tỷ đồng"
+  }
+}

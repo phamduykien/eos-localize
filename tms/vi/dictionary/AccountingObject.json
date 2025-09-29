@@ -1,0 +1,14 @@
+{
+  "QuickSearch": {
+    "Title": "Tìm nhân viên"
+  },
+  "List": {
+    "Title": "Cán bộ",
+    "AddBtn": "Thêm",
+    "SearchEmptyText": "Tìm kiếm",
+    "ActionColumn": "Chức năng"
+  },
+  "detail": {
+    "asset_code": "Mã tài sản"
+  }
+}

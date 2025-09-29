@@ -1,0 +1,38 @@
+{
+  "LeftMenu": {
+    "CompanyInfo": "Thông tin công ty",
+    "CategoryManagement": "Quản lý danh mục",
+    "OrganizationStructure": "Cơ cấu tổ chức",
+    "Subjects": "Đối tượng",
+    "Employee": "Nhân viên",
+    "User": "Người dùng",
+    "Officer": "Cán bộ",
+    "JobPosition": "Vị trí công việc",
+    "Collapse": "Thu gọn",
+    "Expand": "Mở rộng",
+    "Control": "Control",
+    "EmployeeList": "Nhân viên",
+    "ToDoList": "Công việc",
+    "CollapseText": "Thu gọn",
+    "InventoryItem": "Kho",
+    "Account": "Tài khoản",
+    "Dashboard": "Tổng quan",
+    "Treasury": "Kho bạc",
+    "Etreasury": "Kho bạc điện tử",
+    "CA": "Tiền mặt",
+    "BA": "Tiền gửi",
+    "SU": "Công cụ dụng cụ",
+    "FA": "Tài sản cố định",
+    "Salary": "Tiền lương",
+    "PU": "Mua hàng",
+    "SA": "Bán hàng",
+    "Invoice": "Hóa đơn",
+    "Tax": "Thuế",
+    "GL": "Tổng hợp",
+    "Report": "Báo cáo"
+  },
+  "Nav": {
+    "PostedDate": "Ngày hạch toán:",
+    "Search": "Tìm chứng từ"
+  }
+}

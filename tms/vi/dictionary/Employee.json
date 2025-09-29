@@ -1,0 +1,23 @@
+{
+  "QuickSearch": {
+    "Title": "Tìm nhân viên"
+  },
+  "code": "Mã nhân viên",
+  "name": "Họ và tên",
+  "dob": "Ngày sinh",
+  "address": "Địa chỉ",
+  "inactive": "Ngừng kích hoạt",
+  "gender": "Giới tính",
+  "salary": "Lương",
+  "List": {
+    "Title": "Nhân viên",
+    "AddBtn": "Thêm",
+    "HelpBtn": "Hướng dẫn",
+    "SearchEmptyText": "Tìm kiếm",
+    "ActionColumn": "Chức năng"
+  },
+  "Detail": {
+    "Save": "Cất",
+    "Cancel": "Hủy"
+  }
+}

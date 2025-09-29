@@ -1,0 +1,80 @@
+{
+  "Search": {
+    "SearchPlaceHolder": "Tìm kiếm",
+    "AddButton": "Thêm mới",
+    "AddButtonShortKey": "Thêm mới (F9)",
+    "SubmitButton": "Chọn",
+    "SubmitButtonShortKey": "Chọn (Ctrl + S)",
+    "CancelButton": "Hủy"
+  },
+  "Validate": {
+    "Duplicate": "{0} đã tồn tại trong hệ thống. Vui lòng kiểm tra lại.",
+    "DuplicateName": "{0} đã bị trùng trong danh sách nhập. Vui lòng kiểm tra lại.",
+    "EditVersion": "Dữ liệu đã bị thay đổi bởi người dùng khác. Xin vui lòng nạp lại.",
+    "DeleteMultiHasMultiArisened": "Có một số bản ghi xuất hiện lỗi trong quá trình xóa.",
+    "DeleteMultiHasMultiArisened2": "Có một số bản ghi đã có phát sinh. Không thể xóa!",
+    "ConfirmDeleteMultiHasMultiArisened": "Có một số bản ghi đã có phát sinh. Bạn có muốn tiếp tục xóa không!",
+    "DeleteMultiHasOneArisened": "Có một bản ghi đã có phát sinh. Không thể xóa!",
+    "DeleteMultiHasOneArisenedComponentAsset": "Linh kiện đã có phát sinh, bạn không thể xóa!",
+    "NotPermission": "Bạn không có quyền thực hiện chức năng này. Vui lòng kiểm tra lại!",
+    "ManagerUnitHasArise": "Đơn vị quản lý đã có phát sinh dữ liệu, bạn không thể bỏ check là đơn vị quản lý.",
+    "ParentUnitHasArise": "Đơn vị quản lý cấp cha của đơn vị này đã có phát sinh dữ liệu đã, bạn không thể đặt là đơn vị quản lý.",
+    "ManagerUnitHasDependent": "Đơn vị đã có phát sinh đơn vị con là đơn vị quản lý, bạn không thể bỏ check là đơn vị quản lý.",
+    "NewMessageDelete": "{0} <{1}> đã có phát sinh. Bạn có muốn tiếp tục xóa không?",
+    "Required": "Nhập thiếu thông tin {0}",
+    "Arise": "{0} tổng hợp đã phát sinh dữ liệu. Do vậy, để thêm mới được <span class=\"color-green\">{1}</span> , hệ thống phải chuyển toàn bộ dữ liệu gắn với {0} <span class=\"color-green\">{2}</span> sang cho {0} <span class=\"color-green\">{1}</span>. Bạn có muốn thực hiện việc chuyển đổi không?",
+    "AriseAccount": "Hệ thống không cho phép hạch toán vào TK tổng hợp. Do vậy, để thêm mới được tài khoản <span class=\"color-green\">{1}</span> , hệ thống phải chuyển toàn bộ dữ liệu gắn với tài khoản <span class=\"color-green\">{2}</span> sang <span class=\"color-green\">{1}</span>. Bạn có muốn thực hiện việc chuyển đổi không?",
+    "StartThanEndDate": "Ngày kết thúc phải lớn hơn Ngày bắt đầu",
+    "Delete_ErrorIsPostedVoucher": "Chứng từ này có liên quan đến chứng từ {0}. Bạn có muốn xóa không?"
+  },
+  "Detail": {
+    "SubmitError": "Đã có lỗi xảy ra, vui lòng liên hệ với MISA để được hỗ trợ.",
+    "AddDetail": "Thêm dòng",
+    "SaveSuccessMessage": "Cất dữ liệu thành công"
+  },
+  "Message": {
+    "ConfirmDeleteTitle": "Xóa {0}",
+    "ConfirmDeleteVoucherTitle": "Xóa chứng từ",
+    "ConfirmDeleteVoucher": "Bạn có muốn xóa chứng từ <span class=\"color-green\">{0}</span> không?",
+    "ConfirmDelete": "Bạn có muốn xóa {0} <span class=\"color-green\">{1}</span> không?",
+    "ConfirmDeleteMuti": "Bạn có chắc chắn muốn xóa các bản ghi {0} được chọn không?",
+    "ConfirmSaveChangeClose": "Bạn có muốn Cất không?",
+    "NotSelected": "Vui lòng chọn <span class=\"color-green\">ít nhất 1 bản ghi</span> để thực hiện được chức năng này.",
+    "Exception": "Đã có lỗi xảy ra, vui lòng liên hệ với MISA để được hỗ trợ",
+    "DeleteSuccess": "Xóa thành công",
+    "WarningTitle": "Cảnh báo",
+    "SaveSuccess": "Cất thành công",
+    "PostedSuccess": "Ghi sổ thành công",
+    "SavePostedSuccess": "Cất và ghi sổ thành công",
+    "UnPostedSuccess": "Bỏ ghi sổ thành công",
+    "Developing": "Chức năng đang được phát triển",
+    "DeleteWarningTitle": "Không thể xóa",
+    "WarningBatchExcution": "Không hợp lệ",
+    "ValidateInvalidTitle": "Không hợp lệ",
+    "FailSave": "Cất không thành công",
+    "ValidateBusinessTitle": "Chứng từ không hợp lệ",
+    "ValidateBusiness": "Vui lòng nhập ít nhất một dòng chứng từ chi tiết",
+    "ErrorSystemDeleteMulti": "{0} đã chọn là dữ liệu thuộc hệ thống",
+    "ConfirmErrorSystemDelete": "{0} <span class=\"color-green\">{1}</span> đã chọn là dữ liệu thuộc hệ thống",
+    "ConfirmErrorDeleteTitle": "Không thể xóa",
+    "WarningIncurredDataTitle": "Xóa không thành công",
+    "WarningIncurredDataContent": "{0} <span class=\"color-green\">{1}</span> đã có phát sinh dữ liệu. Bạn phải xóa các phát sinh liên quan trước khi xóa <span class=\"color-green\">{2}</span>",
+    "WarningIncurredDataContentCustom": "{0} <span class=\"color-green\">{1}</span> đã có số dư ban đầu; đã phát sinh trên các chứng từ. Bạn phải xóa các phát sinh liên quan trước khi sửa thông tin chi tiết theo.",
+    "WarningParallelNotValidRule": "Thông tin hạch toán đồng thời không phù hợp với quy tắc thiết lập hạch toán đồng thời. Bạn có muốn cập nhật hạch toán đồng thời không?",
+    "DeleteRelation": "Chứng từ số <span class=\"color-green\">{0}</span> có liên quan đến chứng từ số <span class=\"color-green\">{1}</span>. Bạn có muốn xóa chứng từ liên quan này không?",
+    "DeleteRelationTitle": "Xóa chứng từ",
+    "DeleteRelationMulti": "Chứng từ số <span class=\"color-green\">{0}</span> có liên quan đến chứng từ số <span class=\"color-green\">{1}</span>. </br>",
+    "ConfirmDeleteRelation": "Bạn có muốn xóa chứng từ liên quan này không?",
+    "GetDefaultSettingLayoutSuccess": "Lấy tùy chỉnh giao diện mặc định thành công"
+  },
+  "MessageDeleteParentNode": {
+    "DeleteWarningParentTitle": "Xóa không thành công",
+    "DeleteWarningParentContent": "Không thể xóa danh mục cha nếu chưa xóa danh mục con."
+  },
+  "Voucher": {
+    "GenerateVoucher": "Không sinh được giấy rút dự toán từ hạch toán chi tiết của chứng từ này. Vui lòng kiểm tra lại dữ liệu cột TK Có và cột Nghiệp vụ.",
+    "GenerateVoucherTitle": "Không hợp lệ",
+    "ConfirmSyncVocherContent": "Bạn có muốn đồng bộ các thông tin đã cập nhật trên chứng từ {0} này sang giấy rút dự toán số <span class=\"color-green\">{1}</span> không?",
+    "ConfirmSyncVocherTitle": "Đồng bộ chứng từ"
+  }
+}

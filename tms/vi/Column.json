@@ -1,0 +1,24 @@
+{
+  "Asset": "Tài sản",
+  "Import": {
+    "Asset": "Tên Tài sản"
+  },
+  "demoLayout": {
+    "code": "Mã nhân viên",
+    "name": "Tên nhân viên",
+    "org": "Phòng ban",
+    "gender": "Giới tính",
+    "dob": "Ngày sinh",
+    "inactive": "Ngừng theo dõi",
+    "salary": "Lương",
+    "created": "Ngày Tạo"
+  },
+  "inventory_item": {
+    "inventory_item_code": "Mã vật tư",
+    "inventory_item_name": "Tên vật tư"
+  },
+  "accounting_object": {
+    "accounting_object_code": "Mã cán bộ",
+    "accounting_object_name": "Tên cán bộ"
+  }
+}

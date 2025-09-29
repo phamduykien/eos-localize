@@ -1,0 +1,7 @@
+{
+  "name": "vi",
+  "messages": {
+    "LicenseExpried": "Hết hạn sử dụng MISA mTax. Vui lòng đặt mua thêm để thực hiện chức năng này.",
+    "NonLicense": "Chưa có quyền sử dụng MISA mTax. Vui lòng đặt mua hoặc thanh toán đơn hàng để thực hiện chức năng này."
+  }
+}

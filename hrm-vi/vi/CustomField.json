@@ -1,0 +1,13 @@
+{
+  "Title": "Cấu hình trường mở rộng",
+  "Edit": "Sửa",
+  "Cancel": "Hủy",
+  "Save": "Lưu",
+  "Processing": "Đang xử lý...",
+  "EditLabel": "Sửa nhãn",
+  "LabelRequired": "Tên nhãn không được để trống!",
+  "SaveSuccess": "Đã lưu cấu hình trường mở rộng thành công!",
+  "SaveError": "Lưu cấu hình thất bại. Vui lòng thử lại!",
+  "LoadError": "Không thể tải dữ liệu trường mở rộng",
+  "NoData": "Không có trường mở rộng nào"
+}

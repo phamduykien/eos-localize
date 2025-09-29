@@ -1,0 +1,58 @@
+{
+  "Title": "Thiết lập bố cục động",
+  "ResetDefault": "Khôi phục mặc định",
+  "ComponentList": {
+    "Title": "Danh sách thành phần",
+    "FieldsInfo": "Các trường thông tin",
+    "Input": "Nhập liệu",
+    "Textarea": "Nhập nhiều dòng",
+    "SingleSelect": "Chọn đơn",
+    "Combobox": "Hộp tổ hợp",
+    "Date": "Ngày",
+    "Number": "Số",
+    "Decimal": "Số thập phân",
+    "Currency": "Tiền tệ",
+    "Checkbox": "Hộp kiểm",
+    "Link": "Liên kết",
+    "File": "Tập tin",
+    "Image": "Hình ảnh",
+    "Formula": "Công thức",
+    "Menugroup": "Nhóm menu"
+  },
+  "FieldConfiguration": {
+    "Title": "Cấu hình trường",
+    "DisplayName": "Tên hiển thị",
+    "Required": "Bắt buộc",
+    "EditListValues": "Chỉnh sửa danh sách giá trị",
+    "Setting": "Thiết lập",
+    "AddEditQuickValue": "Thêm/sửa nhanh giá trị",
+    "SortAlphabetically": "Sắp xếp theo bảng chữ cái",
+    "DefaultValue": "Giá trị mặc định",
+    "SelectDefaultValueType": "Chọn loại giá trị mặc định",
+    "NoDefaultValue": "Không có giá trị mặc định",
+    "CurrentDate": "Ngày hiện tại",
+    "CustomDate": "Ngày tùy chỉnh",
+    "DefaultChecked": "Mặc định được chọn",
+    "EditFormula": "Chỉnh sửa công thức",
+    "DuplicateFieldName": "Tên trường đã tồn tại, vui lòng nhập tên khác"
+  },
+  "InputFieldName": {
+    "Title": "Nhập tên trường",
+    "FieldName": "Tên trường",
+    "FieldNamePlaceholder": "Nhập tên trường..."
+  },
+  "ConfirmDeleteField": "Bạn có chắc chắn muốn xóa trường \"{0}\"?",
+  "DynamicLayout": {
+    "FieldValue": "Giá trị trường {0}: {1}",
+    "FieldNotExist": "Trường {0} không tồn tại trong model",
+    "SomeFieldsNotExist": "Một số trường được tham chiếu không tồn tại",
+    "FormulaAfterReplace": "Công thức sau khi thay thế: {0}",
+    "ReferenceNotReplaced": "Vẫn còn tham chiếu chưa được thay thế: {0}",
+    "UnsafeFormula": "Công thức không an toàn",
+    "InvalidCalculationResult": "Kết quả tính toán không hợp lệ",
+    "FieldUpdated": "Đã cập nhật trường {0} với giá trị: {1}",
+    "ExecutionError": "Lỗi thực thi công thức cho trường {0}: {1}",
+    "ProcessingError": "Lỗi xử lý công thức cho trường {0}: {1}",
+    "CalculatingFormula": "Đang tính toán công thức: {0}"
+  }
+}
